@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/header/header';
 import Searchbar from './components/searchbar/searchbar';
 import Info from './components/info/info';
+import Map from './components/map/map';
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
         <Header title="IP Address Tracker">
           <Searchbar></Searchbar>
         </Header>
-        <Info></Info>
+        <Info/>
+        <Map/>
     </div>
   );
 }
